@@ -58,6 +58,3 @@ class RetiroControlador extends ControladorBase
         ]);
     }
 }
-
-
-?>

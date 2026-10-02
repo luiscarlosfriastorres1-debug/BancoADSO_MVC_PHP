@@ -37,6 +37,3 @@ class Cuenta
         return $this->cliente_id;
     }
 }
-
-
-?>

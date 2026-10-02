@@ -24,6 +24,3 @@ class Vista
         require self::CARPETA . '/layout.php';
     }
 }
-
-
-?>

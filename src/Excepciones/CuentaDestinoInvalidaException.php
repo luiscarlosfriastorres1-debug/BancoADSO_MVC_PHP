@@ -11,5 +11,3 @@ class CuentaDestinoInvalidaException extends DomainException
         parent::__construct($mensaje);
     }
 }
-
-?>

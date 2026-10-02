@@ -36,6 +36,3 @@ class CuentaControlador extends ControladorBase
         ]);
     }
 }
-
-
-?>

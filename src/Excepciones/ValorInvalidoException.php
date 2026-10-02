@@ -11,7 +11,3 @@ class ValorInvalidoException extends DomainException
         parent::__construct($mensaje);
     }
 }
-
-
-
-?>

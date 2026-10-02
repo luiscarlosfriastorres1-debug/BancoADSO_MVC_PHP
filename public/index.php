@@ -10,4 +10,3 @@ session_start();
 $ruta = $_GET['ruta'] ?? 'cuenta/index';
 
 (new Router())->despachar(is_string($ruta) ? $ruta : 'cuenta/index');
-?>

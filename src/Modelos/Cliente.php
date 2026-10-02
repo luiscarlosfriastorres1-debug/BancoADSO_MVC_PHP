@@ -23,6 +23,3 @@ class Cliente
         return $this->nombre;
     }
 }
-
-
-?>

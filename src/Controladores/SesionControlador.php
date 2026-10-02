@@ -65,6 +65,3 @@ class SesionControlador extends ControladorBase
         $this->redirigir('sesion/login');
     }
 }
-
-
-?>

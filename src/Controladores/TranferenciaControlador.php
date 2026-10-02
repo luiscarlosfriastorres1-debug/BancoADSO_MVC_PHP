@@ -59,6 +59,3 @@ class TranferenciaControlador extends ControladorBase
         ]);
     }
 }
-
-
-?>

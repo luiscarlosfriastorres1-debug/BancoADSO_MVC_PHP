@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box; 
-}
+* { box-sizing: border-box; }
 
 body {
     margin: 0;
@@ -20,30 +18,14 @@ body {
     border-bottom: 1px solid #334155;
 }
 
-.marca { 
-    font-weight: 700; 
-    font-size: 1.2rem; 
-    color: aquamarine; 
-}
+.marca { font-weight: 700; font-size: 1.2rem; color: aquamarine; }
 
-nav a { 
-    color: #cbd5e1; 
-    text-decoration: none; 
-    margin-left: 16px; 
-}
-nav a:hover { 
-    color: aquamarine; 
-}
+nav a { color: #cbd5e1; text-decoration: none; margin-left: 16px; }
+nav a:hover { color: aquamarine; }
 
-main { 
-    max-width: 760px;
-    margin: 28px auto; 
-    padding: 0 16px; 
-}
+main { max-width: 760px; margin: 28px auto; padding: 0 16px; }
 
-.hl { 
-    color: aquamarine; 
-}
+.hl { color: aquamarine; }
 
 .tarjeta {
     background: #1e293b;
@@ -54,16 +36,9 @@ main {
     max-width: 420px;
 }
 
-.resumen { 
-    max-width: none; 
-}
+.resumen { max-width: none; }
 
-label { 
-    display: block; 
-    margin-top: 12px; 
-    font-size: .9rem; 
-    color: #94a3b8; 
-}
+label { display: block; margin-top: 12px; font-size: .9rem; color: #94a3b8; }
 
 input {
     display: block;
@@ -77,11 +52,7 @@ input {
     font-size: 1rem;
 }
 
-small { 
-    display: block; 
-    margin-top: 4px; 
-    color: #64748b; 
-}
+small { display: block; margin-top: 4px; color: #64748b; }
 
 button {
     margin-top: 18px;
@@ -95,45 +66,15 @@ button {
     cursor: pointer;
 }
 
-.etiqueta { 
-    margin-bottom: 0; 
-    color: #94a3b8; 
-}
-.saldo { 
-    margin-top: 4px; 
-    font-size: 2rem; 
-    font-weight: 700; 
-    color: aquamarine; 
-}
+.etiqueta { margin-bottom: 0; color: #94a3b8; }
+.saldo { margin-top: 4px; font-size: 2rem; font-weight: 700; color: aquamarine; }
 
-.aviso { 
-    padding: 10px 14px; 
-    border-radius: 6px; 
-    margin: 0 0 16px; 
-}
-.aviso-ok { 
-    background: #064e3b; 
-    border: 1px solid #10b981; 
-}
-.aviso-error { 
-    background: #4c0519;
-    border: 1px solid #f43f5e; 
-}
+.aviso { padding: 10px 14px; border-radius: 6px; margin: 0 0 16px; }
+.aviso-ok { background: #064e3b; border: 1px solid #10b981; }
+.aviso-error { background: #4c0519; border: 1px solid #f43f5e; }
 
-table { 
-    width: 100%; 
-    border-collapse: collapse; 
-}
-th, td { 
-    padding: 8px 12px; 
-    text-align: left; 
-    border-bottom: 1px solid #334155; 
-}
-th { 
-    color: #94a3b8; 
-    font-weight: 600; 
-}
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #334155; }
+th { color: #94a3b8; font-weight: 600; }
 
-a { 
-    color: aquamarine; 
-}
+a { color: aquamarine; }

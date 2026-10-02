@@ -30,6 +30,3 @@ class Usuario
         return $this->clave_hash;
     }
 }
-
-
-?>

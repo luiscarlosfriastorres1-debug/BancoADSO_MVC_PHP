@@ -24,6 +24,3 @@ class RepositorioClientes
         return $fila ? new Cliente((int) $fila['id'], (string) $fila['nombre']) : null;
     }
 }
-
-
-?>

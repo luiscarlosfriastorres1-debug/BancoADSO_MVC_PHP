@@ -37,6 +37,3 @@ class Retiro
         return $this->fecha;
     }
 }
-
-
-?>

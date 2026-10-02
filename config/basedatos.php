@@ -8,5 +8,3 @@ return [
     "password" => "Adso2026*",
     "charset"  => "utf8mb4",
 ];
-
-?>

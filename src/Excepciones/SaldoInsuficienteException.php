@@ -11,6 +11,3 @@ class SaldoInsuficienteException extends DomainException
         parent::__construct($mensaje);
     }
 }
-
-
-?>

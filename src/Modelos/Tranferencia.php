@@ -51,6 +51,3 @@ class Tranferencia
         return $this->numero_cuenta_destino;
     }
 }
-
-
-?>

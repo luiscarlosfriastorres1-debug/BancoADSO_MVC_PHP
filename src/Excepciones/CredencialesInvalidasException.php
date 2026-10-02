@@ -11,6 +11,3 @@ class CredencialesInvalidasException extends DomainException
         parent::__construct($mensaje);
     }
 }
-
-
-?>

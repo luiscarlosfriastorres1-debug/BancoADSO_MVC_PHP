@@ -11,4 +11,3 @@ class CuentaNoEncontradaException extends DomainException
         parent::__construct($mensaje);
     }
 }
-?>

@@ -47,6 +47,3 @@ class RepositorioRetiros
         return ['cantidad' => (int) $fila['cantidad'], 'total' => (string) $fila['total']];
     }
 }
-
-
-?>

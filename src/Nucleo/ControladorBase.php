@@ -63,5 +63,3 @@ abstract class ControladorBase
         return ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST';
     }
 }
-
-?>

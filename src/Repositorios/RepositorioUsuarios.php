@@ -28,6 +28,3 @@ class RepositorioUsuarios
             : null;
     }
 }
-
-
-?>
