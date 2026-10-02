@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.barra {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 24px;
+    background: #1e293b;
+    border-bottom: 1px solid #334155;
+}
+
+.marca { 
+    font-weight: 700; 
+    font-size: 1.2rem; 
+    color: aquamarine; 
+}
+
+nav a { 
+    color: #cbd5e1; 
+    text-decoration: none; 
+    margin-left: 16px; 
+}
+nav a:hover { 
+    color: aquamarine; 
+}
+
+main { 
+    max-width: 760px;
+    margin: 28px auto; 
+    padding: 0 16px; 
+}
+
+.hl { 
+    color: aquamarine; 
+}
+
+.tarjeta {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 420px;
+}
+
+.resumen { 
+    max-width: none; 
+}
+
+label { 
+    display: block; 
+    margin-top: 12px; 
+    font-size: .9rem; 
+    color: #94a3b8; 
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+    padding: 9px 10px;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-size: 1rem;
+}
+
+small { 
+    display: block; 
+    margin-top: 4px; 
+    color: #64748b; 
+}
+
+button {
+    margin-top: 18px;
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 6px;
+    background: aquamarine;
+    color: #0f172a;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.etiqueta { 
+    margin-bottom: 0; 
+    color: #94a3b8; 
+}
+.saldo { 
+    margin-top: 4px; 
+    font-size: 2rem; 
+    font-weight: 700; 
+    color: aquamarine; 
+}
+
+.aviso { 
+    padding: 10px 14px; 
+    border-radius: 6px; 
+    margin: 0 0 16px; 
+}
+.aviso-ok { 
+    background: #064e3b; 
+    border: 1px solid #10b981; 
+}
+.aviso-error { 
+    background: #4c0519;
+    border: 1px solid #f43f5e; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+th, td { 
+    padding: 8px 12px; 
+    text-align: left; 
+    border-bottom: 1px solid #334155; 
+}
+th { 
+    color: #94a3b8; 
+    font-weight: 600; 
+}
+
+a { 
+    color: aquamarine; 
+}
